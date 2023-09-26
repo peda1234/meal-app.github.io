@@ -1,0 +1,234 @@
+*
+{
+    margin:0px;
+    padding:0px;
+}
+
+body
+{
+    background-image: url(background.jpg);
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size:100%;
+}
+
+.container
+{
+    padding:20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header
+{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    font-size:2rem;
+    cursor:pointer;
+    margin-bottom:40px;
+
+}
+
+.header .heading
+{
+    color:whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+}
+
+.header a
+{
+    color:red;
+    text-decoration: none;
+    font-size:2rem;
+    font-weight: 400;
+}
+
+form
+{
+    margin-bottom:40px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+
+form #search-box
+{
+    width:400px;
+    padding:10px;
+    border:none;
+    outline:none;
+    border-radius:4px;
+    font-size: large;
+}
+
+form #search-button
+{
+    margin-left:-40px;
+    cursor:pointer;
+    padding:11.5px;
+    border:none;
+    outline: none;
+    border-radius: 4px;
+    font-size: large;
+}
+
+#search-result
+{
+    padding:20px;
+    margin:40px;
+    display: grid;
+    grid-gap: 25px;
+    grid-template: auto/repeat(auto-fit,minmax(240px,1fr));
+}
+
+#search-result .item
+{
+    background-color:whitesmoke;
+    padding:15px 15px 30px 15px;
+    border-radius:8px;
+    overflow:hidden;
+    width:240px;
+    height:250px;
+}
+    
+.item img
+{
+ max-width:240px;
+ margin-bottom: 5px;
+}
+
+#Search-result .flex-container
+{
+   display:flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+#search-result .flex-container #receipe-details,h4
+{
+    cursor:pointer;
+    color:grey;
+    font-size: 1rem;;
+}
+
+
+/* receipe-pop-up-container styling */
+
+#meal-recepie-pop-up-container
+{
+    position: fixed;
+    inset:100px 100px 100px 100px;
+    background-color:#b0e133;
+    visibility: hidden;
+    padding:20px;
+    display: flex;
+}
+
+#meal-recepie-container
+{
+    margin:10px;
+    display: flex;
+    height:90%;
+    align-items: center;
+    justify-content: auto;
+}
+
+#meal-recepie-img-instruction
+{
+    padding:20px;
+    max-height:100%;
+    width:45%;
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+
+#meal-img
+{
+    
+    background-color:#0e0e0e;
+    padding-bottom: 40px;
+    border-radius:8px;
+    overflow:hidden;
+    width:200px;
+    height:200px;
+}
+
+#meal-img img
+{
+    width:100%;
+}
+
+#meal-img .flex-container
+{
+    padding-top:10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#meal-img .flex-container .title,a{
+    font-size:medium;
+    color:grey;
+    font-weight: 400;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+#instructions
+{
+    padding:15px;
+    margin-left:-15px;
+    max-height:40%;
+}
+
+#instructions h4{
+    font-weight:bold;
+    font-size:1.5rem;
+    padding-bottom:10px;
+}
+
+#instructions p
+{
+    color: light black;
+}
+
+#ingredients
+{
+    padding:10px 30px 20px 40px;  
+    width:40%;
+    box-sizing:border-box;
+    margin-left:30px;
+    object-fit: contain;
+    max-height:80%;
+}
+
+#ingredients h4
+{
+    font-weight:bold;
+    font-size:1.5rem;
+    padding-bottom:10px;
+}
+
+#ingredient-list
+{
+    max-height:80%;
+    overflow-y: scroll;
+    object-fit: contain;
+}
+
+.close-button
+{
+    position:absolute;
+    right:10px;
+    top:10px;
+    width:20px;
+    height: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    cursor:pointer;
+} 
+
+
+

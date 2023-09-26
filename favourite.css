@@ -1,0 +1,229 @@
+*
+{
+    margin:0px;
+    padding:0px;
+}
+
+body
+{
+    background-image: url(background.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.container
+{
+    padding:20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.home a
+{
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    color:red;
+    margin:20px;
+    font-size:2rem;
+    cursor:pointer;
+    text-decoration:none;
+    font-weight: bolder;
+}
+
+
+h2
+{
+    color:white;
+    font-size: xx-large;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom:50px;
+}
+
+#fav h2
+{
+    color:rgb(206, 212, 24);
+    font-size:2.5rem;
+    margin-top:20px;
+    text-align: center;
+}
+
+#search-result
+{
+    padding:20px ;
+    margin:40px; 
+    display: grid;
+    grid-gap: 25px;
+    grid-template: auto/repeat(auto-fit,minmax(340px,1fr));
+}
+
+.item
+{
+    background-color:whitesmoke;
+    padding:15px 15px 30px 15px ;
+    border-radius:8px;
+    overflow:hidden;
+    width:260px;
+    height:280px;
+}
+
+.item img
+{
+    max-width:240px;
+    margin:5px;
+}
+   
+.flex-container
+{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+  
+.flex-container #receipe-details
+{
+    cursor:pointer;
+    color:grey;
+    font-size: 1.5em;;
+}
+.flex-container h4{
+    color:grey;
+    font-size:1rem;
+    cursor: pointer;
+}
+
+.flex-container a
+{
+    font-style: normal;
+    color: black;
+}
+   
+.fa-rectangle-xmark
+{
+cursor:pointer;
+}
+
+
+
+/* receipe-pop-up-container styling */
+
+#meal-recepie-pop-up-container
+{
+    position: fixed;
+    inset:100px 100px 100px 100px;
+    background-color:#b0e133;
+    visibility: hidden;
+    padding:20px;
+    display:flex;
+}
+
+#meal-recepie-container
+{
+    margin:10px;
+    display: flex;
+    height:90%;
+    align-items: center;
+    justify-content: auto;
+}
+
+#meal-recepie-img-instruction
+{
+    padding:20px;
+    max-height:100%;
+    width:45%;
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+
+#meal-img
+{
+    
+    background-color:#0e0e0e;
+    padding-bottom: 50px;
+    border-radius:8px;
+    overflow:hidden;
+    width:200px;
+    height:200px;
+}
+
+#meal-img img
+{
+    width:100%;
+}
+
+#meal-img .flex-container
+{
+    padding-top:10px;
+}
+
+#meal-img .flex-container .title,a
+{
+    font-size:medium;
+    color:grey;;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+#instructions
+{
+    padding:15px;
+    margin-left:-15px;
+    max-height:40%;
+}
+
+#instructions h4
+{
+    font-weight:bold;
+    font-size:1.5rem;
+    padding-bottom:10px;
+}
+
+#instructions p
+{
+    color: light black;
+    
+}
+
+#ingredients
+{
+    padding:10px 30px 20px 40px;  
+    width:40%;
+    box-sizing:border-box;
+    margin-left:30px;
+    object-fit: contain;
+    max-height:80%;
+}
+
+#ingredients h4
+{
+    font-weight:bold;
+    font-size:1.5rem;
+    padding-bottom:10px;
+}
+
+#ingredient-list
+{
+    max-height:80%;
+    overflow-y: scroll;
+    object-fit: contain;
+}
+
+.close-button
+{
+    position:absolute;
+    right:10px;
+    top:10px;
+    width:20px;
+    height: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    cursor:pointer;
+    
+}
+
+
+
