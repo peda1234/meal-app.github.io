@@ -8,7 +8,8 @@ search list
 ![image](https://github.com/peda1234/meal-app.github.io/assets/51137065/a1a14fd9-a4e5-4771-9146-dbd166e7c725)
 
 favourite list-
-![image](https://github.com/peda1234/meal-app.github.io/assets/51137065/1ebaebea-727e-4865-bad5-d9a8905eb55c)
+![Uploading image.png…]()
+
 
 recepie details-
 
