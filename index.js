@@ -131,14 +131,11 @@ function showRecepie(resu)
     }
     let recepieHTML=
     `
-                        
-    <div id="meal-recepie-img-instruction">
+        <div id="meal-recepie-img-instruction">
         <div id="meal-img">
             <img src="${resu[0].strMealThumb}">
-            
             <div class="flex-container">
                 <h4 class="title">${resu[0].strMeal}</h4>
-                <a href="${resu[0].strYoutube}">Video Link</a> 
             </div>
 
         </div>
@@ -162,6 +159,7 @@ function showRecepie(resu)
 
     `;
     mealRecepieContainer.innerHTML=recepieHTML;
+
     if(recepieHTML)
     {
         mealRecepiePopUpContainer.style.visibility='visible';

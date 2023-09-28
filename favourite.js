@@ -121,7 +121,6 @@ function showRecepie(resu)
             
             <div class="flex-container">
                 <h4 class="title">${resu[0].strMeal}</h4>
-                <a href="${resu[0].strYoutube}"><h4>Video Link</h4></a> 
             </div>
 
         </div>

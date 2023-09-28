@@ -148,7 +148,7 @@ form #search-button
 {
     
     background-color:#0e0e0e;
-    padding-bottom: 40px;
+    padding-bottom: 48px;
     border-radius:8px;
     overflow:hidden;
     width:200px;
@@ -164,10 +164,10 @@ form #search-button
 {
     padding-top:10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
-#meal-img .flex-container .title,a{
+#meal-img .flex-container .title{
     font-size:medium;
     color:grey;
     font-weight: 400;
