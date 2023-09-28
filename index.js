@@ -42,7 +42,7 @@ async function fetchAPI()
                 <img src="${results.strMealThumb}">
                 <div class="flex-container" data-id="${results.idMeal}">
                     <h4 class="title">${results.strMeal}</h4>
-                    <h4 class="receipe-details">receip-details</h4>
+                    <h4 class="receipe-details">recepie-details</h4>
                     <i class="fa-regular fa-heart" id="heart"></i>
                 </div>
             `;

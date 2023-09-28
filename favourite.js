@@ -47,7 +47,7 @@ function itemCard(data)
         <img src="${data.strMealThumb}">
         <div class="flex-container" data-id="${data.idMeal}">
             <h4 class="title">${data.strMeal}</h4>
-            <h4 class="receipe-details">receip-details</h4>
+            <h4 class="receipe-details">recepie-details</h4>
             <i class="fa-solid fa-rectangle-xmark"></i>
         </div>
     `;
